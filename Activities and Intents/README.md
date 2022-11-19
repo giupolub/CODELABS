@@ -1,5 +1,11 @@
-## ACTIVITIES E INTENTS
+## CODELABS GOOGLE
 
-- Pequeno projeto realizado através do codelab do google para aprimorar os conhecimentos sobre activities e intents.
+## Repositório para armazenar os codelabs realizados
 
-- Link do codelab: https://developer.android.com/codelabs/basic-android-kotlin-training-activities-intents?hl=pt_br#0
+Segue lista com link de acesso, caso tenha interesse:
+
+- Activities and Intents (https://developer.android.com/codelabs/basic-android-kotlin-training-activities-intents?hl=en#0)
+
+- Fragments and the Navigation Component: (https://developer.android.com/codelabs/basic-android-kotlin-training-fragments-navigation-component?hl=en#0)
+
+

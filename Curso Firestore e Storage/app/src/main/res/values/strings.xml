@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseCursoSF</string>
+    <string name="login">Login *</string>
+    <string name="hint_email">Insira seu email</string>
+    <string name="password">Senha *</string>
+    <string name="hint_password">Insira sua senha</string>
+    <string name="ok">Ok</string>
+</resources>

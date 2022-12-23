@@ -5,4 +5,10 @@
     <string name="password">Senha *</string>
     <string name="hint_password">Insira sua senha</string>
     <string name="ok">Ok</string>
+    <string name="sign_out">Deslogar</string>
+    <string name="download_image">Download Imagem</string>
+    <string name="upload_imagem">Upload Imagem</string>
+    <string name="read_data">Firestore - Ler dados</string>
+    <string name="save_change_remove">Firestore - Gravar, alterar ou remover dados</string>
+    <string name="categories">Categorias</string>
 </resources>

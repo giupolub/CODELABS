@@ -11,4 +11,6 @@
     <string name="read_data">Firestore - Ler dados</string>
     <string name="save_change_remove">Firestore - Gravar, alterar ou remover dados</string>
     <string name="categories">Categorias</string>
+    <string name="download">Download</string>
+    <string name="remove">Remover</string>
 </resources>

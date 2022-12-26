@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.Toast
 import com.br.jafapps.bdfirestore.util.Util
 import com.example.firebasecursosf.databinding.ActivityMainBinding
+import com.example.firebasecursosf.storage.DownloadActivity
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -54,7 +55,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when (v.id) {
             binding.cardDownloadImage.id -> {
-
+                startActivity(Intent(this, DownloadActivity::class.java))
             }
             binding.cardUploadImage.id -> {
 

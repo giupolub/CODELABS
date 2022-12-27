@@ -17,6 +17,13 @@
         android:theme="@style/Theme.FirebaseCursoSF"
         tools:targetApi="31">
         <activity
+            android:name=".storage.UploadActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".storage.DownloadActivity"
             android:exported="false">
             <meta-data
@@ -49,6 +56,18 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.firebasecursosf"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider" />
+        </provider>
+
     </application>
 
 </manifest>

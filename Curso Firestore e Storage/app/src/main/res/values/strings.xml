@@ -13,4 +13,8 @@
     <string name="categories">Categorias</string>
     <string name="download">Download</string>
     <string name="remove">Remover</string>
+    <string name="upload">Upload</string>
+    <string name="get_image">Obter Imagem</string>
+    <string name="galery">Galeria</string>
+    <string name="camera">Câmera</string>
 </resources>

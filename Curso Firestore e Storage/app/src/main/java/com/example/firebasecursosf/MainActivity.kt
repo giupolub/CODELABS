@@ -10,6 +10,7 @@ import android.widget.Toast
 import com.br.jafapps.bdfirestore.util.Util
 import com.example.firebasecursosf.databinding.ActivityMainBinding
 import com.example.firebasecursosf.storage.DownloadActivity
+import com.example.firebasecursosf.storage.UploadActivity
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -58,7 +59,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(Intent(this, DownloadActivity::class.java))
             }
             binding.cardUploadImage.id -> {
-
+                startActivity(Intent(this, UploadActivity::class.java))
             }
             binding.cardReadData.id -> {
 
